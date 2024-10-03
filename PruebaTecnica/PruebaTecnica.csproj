@@ -93,9 +93,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Bd\" />
-  </ItemGroup>
-  <ItemGroup>
+    <Content Include="Bd\PruebaTecnica.mdf" />
     <Content Include="Modelo\Modelo.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>Modelo.edmx</DependentUpon>
