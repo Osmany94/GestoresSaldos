@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PruebaTecnicaModelStoreContainer" CdmEntityContainer="Conexion">
+    <EntitySetMapping Name="AsignacionSaldos">
+      <EntityTypeMapping TypeName="PruebaTecnicaModel.AsignacionSaldos">
+        <MappingFragment StoreEntitySet="AsignacionSaldos">
+          <ScalarProperty Name="AsignacionSaldoId" ColumnName="AsignacionSaldoId" />
+          <ScalarProperty Name="GestorId" ColumnName="GestorId" />
+          <ScalarProperty Name="Saldos" ColumnName="Saldos" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Gestor">
+      <EntityTypeMapping TypeName="PruebaTecnicaModel.Gestor">
+        <MappingFragment StoreEntitySet="Gestor">
+          <ScalarProperty Name="GestorId" ColumnName="GestorId" />
+          <ScalarProperty Name="NombreGestor" ColumnName="NombreGestor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

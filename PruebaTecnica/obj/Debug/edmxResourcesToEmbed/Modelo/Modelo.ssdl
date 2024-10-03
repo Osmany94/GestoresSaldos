@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PruebaTecnicaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AsignacionSaldos">
+    <Key>
+      <PropertyRef Name="AsignacionSaldoId" />
+    </Key>
+    <Property Name="AsignacionSaldoId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="GestorId" Type="int" />
+    <Property Name="Saldos" Type="decimal" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="Gestor">
+    <Key>
+      <PropertyRef Name="GestorId" />
+    </Key>
+    <Property Name="GestorId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NombreGestor" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6013: La tabla o vista 'PruebaTecnica.dbo.Saldos' no tiene definida una clave principal y no es posible inferir ninguna clave principal válida. Esta tabla o vista se ha excluido. Para usar la entidad, necesitará revisar el esquema, agregar las claves correctas y quitar sus comentarios.
+        <EntityType Name="Saldos">
+          <Property Name="Saldos" Type="decimal" Precision="18" Scale="2" />
+        </EntityType>-->
+  <EntityContainer Name="PruebaTecnicaModelStoreContainer">
+    <EntitySet Name="AsignacionSaldos" EntityType="Self.AsignacionSaldos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Gestor" EntityType="Self.Gestor" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

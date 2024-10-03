@@ -1,0 +1,12 @@
+C:\Users\UNP\source\repos\PruebaTecnica\bin\Debug\PruebaTecnica.exe.config
+C:\Users\UNP\source\repos\PruebaTecnica\bin\Debug\PruebaTecnica.exe
+C:\Users\UNP\source\repos\PruebaTecnica\bin\Debug\PruebaTecnica.pdb
+C:\Users\UNP\source\repos\PruebaTecnica\bin\Debug\EntityFramework.dll
+C:\Users\UNP\source\repos\PruebaTecnica\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\UNP\source\repos\PruebaTecnica\bin\Debug\EntityFramework.xml
+C:\Users\UNP\source\repos\PruebaTecnica\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\UNP\source\repos\PruebaTecnica\obj\Debug\PruebaTecnica.csproj.AssemblyReference.cache
+C:\Users\UNP\source\repos\PruebaTecnica\obj\Debug\PruebaTecnica.csproj.CoreCompileInputs.cache
+C:\Users\UNP\source\repos\PruebaTecnica\obj\Debug\PruebaTe.5DFE3EDD.Up2Date
+C:\Users\UNP\source\repos\PruebaTecnica\obj\Debug\PruebaTecnica.exe
+C:\Users\UNP\source\repos\PruebaTecnica\obj\Debug\PruebaTecnica.pdb
